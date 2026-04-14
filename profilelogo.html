@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		.container{
+			width:100%;
+			height:100vh;
+			background:url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/67a633108612073.5fc1641e1379c.jpg");
+			background-size:cover;
+			display:flex;
+
+		}
+		.row{
+			margin-left:50px;
+			width:80%;
+			display:flex;
+			justify-content:space-between;
+			gap:20px;
+
+		}
+		.col{
+			position:relative;
+			margin-top:120px;
+			height:300px;
+			width:150px;
+			background-size:cover;
+			filter:grayscale(80%);
+			
+			
+		}
+		.col img{
+           width:100%;
+
+		}
+		.alok{
+			height:350px;
+			width:300px;
+			background:url("https://wallpaper.dog/large/20507005.jpg");
+			background-size:cover;
+		}
+		.adam{
+			height:350px;
+			width:300px;
+			background:url("https://i.pinimg.com/736x/cc/4c/31/cc4c3194bde14a612d28b95e80bb11a2.jpg");
+			background-size:cover;
+		}
+		.andrew{
+			height:350px;
+			width:300px;
+			background:url("https://wallpapercave.com/wp/wp6979964.jpg");
+			background-size:cover;
+		}
+		.maxim{
+			height:350px;
+			width:300px;
+			background:url("https://th.bing.com/th/id/OIP.AbmjlmkAi98pNPkNEeeiAgAAAA?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3");
+			background-size:cover;
+		}
+		.profile{
+			margin-top:300px;
+			position:absolute;
+			text-align:center;
+			height:1s50px;
+			width:300px;
+			background:black;
+			color:#fff;
+
+		}
+       .profile h2{
+       	color:#fff;
+       }
+       .fa-youtube{
+       	color:red;
+       }
+       .fa-facebook{
+       	color:#5088fb;
+       }
+       .fa-square-instagram{
+       	color:#e95950;
+       }
+       .fa-twitter{
+       	color:#1da1f2;
+       }
+       .icon{
+       	max-height:0;
+       	overflow:hidden;
+       	transition: max-height 1s;
+       }
+       .col:hover{
+       	 filter:grayscale(0%);
+       }
+       .col:hover .icon{
+       	max-height:150px;
+      
+       }
+
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<div class="alok"> 
+              <div class="profile">
+					<h2>alok</h2>
+					<p>free fire</p>
+					<div class="icon">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                </div>
+			</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="adam"> 
+               <div class="profile">
+					<h2>adam</h2>
+					<p>free fire</p>
+                    <div class="icon">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                </div>
+			</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="andrew"> 
+                   <div class="profile">
+					<h2>andrew</h2>
+					<p>free fire</p>
+                    <div class="icon">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                </div>
+			</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="maxim"> 
+				<div class="profile">
+					<h2>maxim</h2>
+					<p>free fire</p>
+               <div class="icon">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
